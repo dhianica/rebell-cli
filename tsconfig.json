@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "outDir": "dist",
+      "target": "ES2022",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "strictNullChecks": false,
+      "types": ["@types/node"],
+      "declaration": true
+  },
+}
