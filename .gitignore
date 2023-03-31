@@ -101,7 +101,3 @@ typings/
 
 # TernJS port file
 .tern-port
-
-.npmrc
-
-src/
