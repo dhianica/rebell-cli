@@ -8,7 +8,7 @@ function capitalizeFirstLetter(str: string): string {
 const scripts = () => `
 
 class ClassNameController {
-  
+
   private ClassName = [{
     ClassNameID: 1,
     ClassName_Name: 'ClassName 1'
@@ -22,7 +22,7 @@ class ClassNameController {
     request: Request,
     response: Response,
     next: NextFunction
-  ): Promise<void>  {
+  ): Promise<void> {
     return new Promise<void>(async () => {
       try {
         response.json({
@@ -39,7 +39,7 @@ class ClassNameController {
     request: Request,
     response: Response,
     next: NextFunction
-  ): Promise<void>  {
+  ): Promise<void> {
     return new Promise<void>(async () => {
       try {
         const { id } = request.params
@@ -61,8 +61,10 @@ class ClassNameController {
     })
   }
 }
-  
-export default new ClassNameController();`
+
+export default new ClassNameController();
+
+`
 
 const makeRequest = (name: string): void => {
 

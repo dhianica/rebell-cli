@@ -1,6 +1,6 @@
 {
   "name": "rebell-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Command line for helper create all resource file in rebell framework",
   "main": "./dist/index.cli.js",
   "types": "./dist/index.cli.d.ts",
