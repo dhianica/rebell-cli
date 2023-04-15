@@ -82,10 +82,10 @@ const makeRequest = (name: string): void => {
       }
       // add path tree
       importLib.push(`import type { Request, Response, NextFunction }  from 'express';`)
-      importLib.push(`import { customError } from '../../core/error';`)
-      importLib.push(`import { EErrorMessage, EErrorCode, EApp, ESuccessMessage } from '../../core/enum'`)
-      importLib.push(`import { generateCode, getMethodName, isNumber } from '../../utils/index.util'`)
-      importLib.push(`import { Get, Post } from '../../core/decorator'`)
+      importLib.push(`import { customError } from 'rebell-core';`)
+      importLib.push(`import { EErrorMessage, EErrorCode, EApp, ESuccessMessage } from 'rebell-core'`)
+      importLib.push(`import { generateCode, getMethodName, isNumber } from 'rebell-utils'`)
+      importLib.push(`import { Get, Post } from 'rebell-core'`)
 
       // change class name from default script
       const content = scripts().replace(/ClassName/g, capitalizeFirstLetter(name))
